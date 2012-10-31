@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Feed for Library Databases feature.
+ */
+
+include_once 'feed_for_library_databases.features.inc';

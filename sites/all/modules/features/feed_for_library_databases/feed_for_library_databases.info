@@ -1,0 +1,12 @@
+name = Feed for Library Databases
+description = Feed for Importing Library Databases
+core = 7.x
+package = Features
+php = 5.2.4
+version = 7.x-1.0-beta1
+project = feed_for_library_databases
+dependencies[] = ctools
+dependencies[] = feeds
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:1
+features[feeds_importer][] = library_database_importer
